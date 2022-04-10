@@ -15,3 +15,8 @@ a one page app that consume a JSON file of over 1000+ quotes.
 | :-------- | :------- | :------------------------- |
 | `text` | `string` | the quote |
 | `author` | `string` | the author of the quote |
+
+## Screenshot
+
+![App Screenshot](https://github.com/yassine-bennkhay/quotes-API-flutter/blob/main/lib/screenshot/quotes.png)
+
