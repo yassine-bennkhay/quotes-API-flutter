@@ -59,11 +59,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
                     ),
-                    color: Color(0xffEEEEEE).withOpacity(0.5),
+                    color: const Color(0xffEEEEEE).withOpacity(0.5),
                     child: ListTile(
                       title: Text(
                         snapshot.data[index].author,
-                        style: const TextStyle(fontWeight: FontWeight.bold),
+                        style:  const TextStyle(fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text(snapshot.data[index].text),
                     ),
